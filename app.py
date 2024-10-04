@@ -46,7 +46,7 @@ if st.session_state.current_page == 'Home':
    # Display an image and a button in the first column
    with col1:
         st.image('images/Spaceships/Meer_Galactic_Pathfinder.png', caption='Image 1', width=500)
-        if st.button('Go to Page 1', key='btn1'):
+        if st.button('Buy', key='btn1'):
            # Redirect to another page or perform another action here
            st.session_state.current_page = 'Page 1'
            st.rerun()
